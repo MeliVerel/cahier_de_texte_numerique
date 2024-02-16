@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "682748365373",
+    "project_id": "cahier-de-text-numerique",
+    "storage_bucket": "cahier-de-text-numerique.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682748365373:android:c0e75dc275f444dcc7f854",
+        "android_client_info": {
+          "package_name": "com.alixumer.cahier_de_texte_numerique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682748365373-ul1dc4lrqsae7uad2oknqoiirrn9rerm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alixumer.cahier_de_texte_numerique",
+            "certificate_hash": "3a5113d1c3c5e460e589cef65ecd55a8e913dadc"
+          }
+        },
+        {
+          "client_id": "682748365373-9hulqichbet1i0febpsihdpc841opaeg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC84TdcI62tuGM13gai-j9NDT2j_RKAxwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682748365373-9hulqichbet1i0febpsihdpc841opaeg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "682748365373-np30uj0vp68o7kunnkvnun8bvlqk9hp4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

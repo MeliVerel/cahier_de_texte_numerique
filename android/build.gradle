@@ -1,0 +1,59 @@
+buildscript {
+    ext.kotlin_version = '1.6.10'
+
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.0'
+        // START: FlutterFire Configuration
+        classpath 'com.google.gms:google-services:4.4.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // END: FlutterFire Configuration
+        // Use a compatible Gradle version (consider updating as needed)
+        // classpath 'com.android.tools.build:gradle:7.3.0'
+        // // Use a compatible Google Services Gradle plugin version
+        // classpath 'com.google.gms:google-services:4.6.1'
+
+        // Import the BoM for the Firebase platform
+    
+
+
+
+
+        
+    }
+}
+// plugins {
+
+//   // ...
+
+
+//   // Add the dependency for the Google services Gradle plugin
+
+// //   id 'com.google.gms.google-services' version '4.4.1' apply false
+//  id 'com.google.gms.google-services' version '4.6.1' apply false
+// }
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+
